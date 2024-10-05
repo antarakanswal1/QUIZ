@@ -1,0 +1,37 @@
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='700' preserveAspectRatio='none' viewBox='0 0 1440 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1010%26quot%3b)' fill='none'%3e%3crect width='1440' height='700' x='0' y='0' fill='rgba(14%2c 71%2c 17%2c 1)'%3e%3c/rect%3e%3cpath d='M76.60171667210737 485.11828589656443L281.78957125152266 528.9367355673503 228.16542943322042 353.54007088699177z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1187.7692543551534 518.8072943121724L1129.3851064774865 579.2658492843278 1249.265012874553 636.6127936147504z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1350.1929555317074 680.9637502464154L1485.1647117345842 642.2612219474778 1311.4904272327697 545.9919940435385z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M321.729%2c451.582C382.659%2c454.323%2c446.922%2c441.39%2c481.355%2c391.047C520.129%2c334.357%2c527.734%2c259.246%2c494.321%2c199.24C460.09%2c137.766%2c391.97%2c100.252%2c321.729%2c104.376C257.302%2c108.159%2c209.844%2c159.903%2c181.002%2c217.638C155.434%2c268.82%2c155.685%2c328.699%2c185.176%2c377.725C213.766%2c425.253%2c266.321%2c449.09%2c321.729%2c451.582' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M783.028%2c614.776C809.089%2c615.771%2c833.409%2c601.31%2c846.529%2c578.77C859.729%2c556.093%2c859.264%2c528.381%2c846.738%2c505.325C833.587%2c481.119%2c810.576%2c461.956%2c783.028%2c461.887C755.379%2c461.817%2c731.03%2c480.225%2c718.761%2c505.003C707.703%2c527.336%2c714.815%2c552.715%2c727.406%2c574.221C739.831%2c595.444%2c758.453%2c613.838%2c783.028%2c614.776' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1141.3067479169595 541.3627026201215L1220.9513924395537 344.7749065867987 1036.917236946951 367.37145956009476z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1010'%3e%3crect width='1440' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.quiz-container {
+max-width: 700px;
+margin: 40px auto;
+padding: 20px;
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+margin-bottom: 20px;
+}
+
+.submit-btn {
+background-color: #4CAF50;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.submit-btn:hover {
+background-color: #3e8e41;
+}
+
+.result {
+font-size: 24px;
+font-weight: bold;
+margin-top: 20px;
+}
+.options{
+display: flex;
+}
